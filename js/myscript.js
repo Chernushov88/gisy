@@ -33,4 +33,3 @@
         $(".darken").fadeOut(300);
         $("#popup").fadeOut(300); 
         }
-         

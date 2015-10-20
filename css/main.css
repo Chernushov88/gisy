@@ -13,7 +13,7 @@
    }
 */
 
-/*design*/ 
+/*design*/
   a img{border:0;}
 
 /*navigation*/
@@ -145,6 +145,9 @@
             //height:141px;
             border:1px solid #d7d7d7;margin:0 13px 8px 0;position:relative}
               .img_good td{width:141px;height:141px;vertical-align:middle;text-align:center}
+              .img_good td .fancybox img{
+                width: 100px;
+              }
               .zoom{
                 position: absolute;
                   right: 4px;
@@ -1650,7 +1653,7 @@ left: 0px;
 top: 50px;
 width: 176px;
 height: 200px;
-background: url('/application/layoutes/gisy/images/new/1.png') no-repeat;
+background: url('../images/new/1.png') no-repeat;
 }
 #tlt_2 {
 position: absolute;
@@ -1659,7 +1662,7 @@ left: 0px;
 top: 50px;
 width: 180px;
 height: 198px;
-background: url('/application/layoutes/gisy/images/new/2.png') no-repeat;
+background: url('../images/new/2.png') no-repeat;
 }
 #tlt_3 {
 position: absolute;
@@ -1668,7 +1671,7 @@ left: 0px;
 top: 50px;
 width: 180px;
 height: 198px;
-background: url('/application/layoutes/gisy/images/new/3.png') no-repeat;
+background: url('../images/new/3.png') no-repeat;
 }
 #tlt_4 {
 position: absolute;
@@ -1677,7 +1680,7 @@ left: 0px;
 top: 50px;
 width: 176px;
 height: 200px;
-background: url('/application/layoutes/gisy/images/new/4.png') no-repeat;
+background: url('../images/new/4.png') no-repeat;
 }
 
 

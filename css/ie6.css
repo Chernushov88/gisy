@@ -3,4 +3,3 @@ input
   scrollbar-face-color: expression(runtimeStyle.scrollbarFaceColor = '#fff', className += ' input_'+type)
 }
 
-   
