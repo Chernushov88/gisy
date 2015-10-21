@@ -1,4 +1,4 @@
-﻿
+﻿ 
 <!DOCTYPE html>
 <html>
   <head>
@@ -107,11 +107,7 @@
                 </span>
             
             </a><a href="/curt"><p class="img_kar"></p></a>
-            <p class="m_srav"><a href="/catalog/diff">В сравнении</a>: 
             
-            <span class="pod2">0</span> шт.                  
-            
-            </p>
             <a href="/curt"><p class="of_zak"></p></a>
           </span>
         </div>
@@ -149,7 +145,7 @@
        </div>
 
 
-        <noindex>
+        <noindex style="float: left; display: inline-block;">
        <form id="form1" action="/search" method="get" class="search_form">
         <fieldset>
           <input type="text" name="search" id="front_search_query" value="Поиск по товарам" class="input"/>
@@ -167,6 +163,7 @@
 
 
        <noindex>
+       <div class="block-filter-form">
        <form id="form1" action="/catalog" method="get" class="filter_form">
         <fieldset>
           <select name="params[16]">
@@ -657,7 +654,7 @@
         	<option value="194" >Юнитест</option>				
         </select>
         <input type="text" name="marking" id="front_code" class="input" value="Код товара"/>
-        <input type="image" name="eaddress" id="eaddress" src="images/1x1.gif" class="filter"/>
+        <input type="image" name="eaddress" id="eaddress" src="images/bgr/podtobnie.png" class="filter"/>
         <script type='text/javascript'>
             var objSearch1 = document.getElementById('front_code');
             objSearch1.onfocus = function() 	{ if(objSearch1.value=='Код товара') objSearch1.value = '';}
@@ -665,29 +662,28 @@
         </script>
       </fieldset>
       </form>
+      </div>
     </noindex>
   </div>
   <div id="body">
     <div id="main_col">
       <div id="main_col_content">
-        <div class="right_column">        
+        <div class="right_column"> 
+
           <div class="kurs-valut">
             <h4>Курс валют на 13.10.2015</h4>
-            <div class="valute">
-              <span class="country-flag flag-us"></span>
-              <a class="name-valute">USD ЦБ</a>
-              <span class="country-count">61.1636</span>
-              <span class="strela-img-top"></span>
-              <span class="top-bottom-valute">1.0702</span>
-            </div>
-            <div class="valute">
-              <span class="country-flag flag-eu"></span>
-              <a class="name-valute">USD ЦБ</a>
-              <span class="country-count">69.5499</span>
-              <span class="strela-img-bottom"></span>
-              <span class="top-bottom-valute">1.0912</span>
+            <div class="kurs-valut-inside">
+              <div class="valute">              
+                <a class="name-valute">USD ЦБ</a>
+                <span class="country-count">61.1636</span>          
+              </div>
+              <div class="valute">              
+                <a class="name-valute">USD ЦБ</a>
+                <span class="country-count">69.5499</span>          
+              </div>
             </div>
           </div>
+
           <div class="banner">
             <a href="" rel="nofollow"><img width="250" height="109" src="images/mont(1).png" alt="" /></a><br />            <a class="more" href="" rel="nofollow">Подробнее >></a>
           </div>

@@ -55,7 +55,7 @@
 
   /*=HEADER*/
     #header {
-    	height:190px;background: url(../images/bgr/header.png) no-repeat 310px 96px;
+    	height: 190px;background: url(../images/bgr/header.png) no-repeat 310px 96px;
     	margin-top: 14px;
 	//min-width: 1350px;
     }
@@ -247,8 +247,8 @@
            .good_list span{color:#ff6600}
            .more_good{//background: url("../images/bgr/more.png") no-repeat left 3px transparent;font:bold 12px arial;padding:0 0 0 17px;float:left;color:#ff6600;margin:4px 0 0 8px}
 
-         .right_column{float:right;width:250px;margin:0 0 0 20px}
-            .right_column h2, .right_column .header2{height:20px;margin:0 0 10px;
+         .right_column{float:right;width:250px;margin:-68px 0 0 20px}
+            .right_column h2, .right_column .header2{height:20px;
                 border:1px solid #b0b0b0;border-radius:3px;
                 background-image: linear-gradient(top, rgb(255,255,255) 9%, rgb(244,244,244) 55%);
                 background-image: -o-linear-gradient(top, rgb(255,255,255) 9%, rgb(244,244,244) 55%);
@@ -404,15 +404,18 @@
          .producers li.active a{cursor:default}
          .catalog ul ul li.active>p a{color:#fe8d30;text-decoration:underline;cursor:default;background: url(../images/bgr/a3.png) no-repeat 11px 3px;}
 
-      .kurs-valut {width: 250px; height: 32px; position: absolute; right: 20px; top: 123px; line-height: 21px;}
-      .kurs-valut h4 {font-size: 14px;}
+      .kurs-valut {width: 250px; /*position: absolute; right: 20px; top: 123px;*/ margin: 0 0 28px 0; line-height: 19px;}
+      .kurs-valut h4 {padding-bottom: 10px;font-size: 14px;}
+      .kurs-valut-inside {height: 24px; border-left: 1px solid #b0b0b0; border-right: 1px solid #b0b0b0; border-bottom: 1px solid #b0b0b0; border-bottom-right-radius: 3px;  border-bottom-left-radius: 3px;}
+      .kurs-valut-inside div:nth-child(2){ border-left: 1px solid #000;}
 
-    .valute {font-size: 13px;}
+      .kurs-valut-inside div:last-child .country-count {padding: 0 0px 0 10px;}
+    .valute {margin-bottom: 5px; padding-left: 10px; font-size: 12px; float: left;}
     .country-flag {display: inline-block; width: 16px; height: 11px; background: url('../images/flafs-icon.png') no-repeat;}
 .flag-us {background-position: -144px -154px;}
 .flag-eu {background-position: -48px -44px;}
-.name-valute {text-decoration: none; color: #7A12FF;}
-.country-count {padding: 0 15px;}
+.name-valute {text-decoration: none; color: #504D54;}
+.country-count {padding: 0 10px;}
 .strela-img-top {display: inline-block; width: 8px; height: 13px; margin: 0 -4px -1px 0; background: rgba(253, 247, 0, 0.92) url('../images/strela.png') 0px 0px no-repeat;}
 .strela-img-bottom {display: inline-block; width: 8px; height: 13px; margin: 0 -4px -1px 0; background: rgba(253, 247, 0, 0.92) url('../images/strela.png') -9px 0px no-repeat;}
 .top-bottom-valute {background: rgba(253, 247, 0, 0.92);}
@@ -443,14 +446,16 @@
 /*form*/
 label{font:12px arial;color:#595959}
 fieldset{padding:0;margin:0;border:none}
-.search_form{background: url(../images/bgr/search.png) no-repeat left top;width:250px;height:32px;position:absolute;left:20px;top:138px;}
-  .search_form .input{border:none;background:none;position:absolute;left:19px;top:2px;width:157px;font:12px arial;color:#595959;line-height:1}
-  .go{position:absolute;right:7px;top:0px;width:65px;height:20px;}
+.search_form{background: url(../images/bgr/search.png) no-repeat left top;width:250px;height:32px;margin: 39px 0px 0 20px;/*position:absolute;left:20px;top:142px;*/}
+  .search_form .input{border:none;background:none;width:157px; padding: 0 0 0 19px; font:12px arial;color:#595959;line-height:1}
+  .go{/*position:absolute;right:7px;top:0px;*/width:65px;height:20px;}
 
-.filter_form{background: url(../images/bgr/filter.png) no-repeat left top;width:582px;height:40px;position:absolute; left: 292px;  top: 134px;padding:8px 0 0 107px}
-  .filter_form select{border:1px solid #c2c2c2;border-radius:3px;font:12px arial;color:#595959;width:176px;margin:0 5px 0 0;height:21px;padding-left:3px;padding-top:1px}
-  .filter_form .input{width:99px;padding:0 0 0 5px;font:12px arial;border-radius:3px;color:#595959;border:1px solid #b0b0b0;height:19px;margin:0 0 0 14px}
-  .filter{position:absolute;top:7px;right:10px;width:71px;height:20px;}
+
+.block-filter-form {}
+.filter_form{background: url(../images/bgr/filter2.png) no-repeat left top;width: 90%;  margin: 0 0 0 5px; height: 40px; padding: 0px 0 0 9%;}
+  .filter_form select{border:1px solid #c2c2c2;border-radius:3px;font:12px arial;color:#595959;width:176px;margin: 0 6%;height:21px;padding-left:3px;padding-top:1px}
+  .filter_form .input{width:99px;padding:0 0 0 5px;font:12px arial;border-radius:3px;color:#595959;border:1px solid #b0b0b0;height:19px;margin: 0 6%;}
+  .filter{/*position:absolute;top:7px;right:10px;*/width:71px;height:20px; float: right;}
 
 .login_form{margin:0 0 15px;overflow:hidden;zoom:1}
   .log_l{padding:0 0 0 30px;background: url(../images/bgr/l.png) no-repeat 11px 2px;}
@@ -459,7 +464,16 @@ fieldset{padding:0;margin:0;border:none}
   .login_form .input{width:237px;padding:2px 0 2px 10px;font:12px arial;color:#595959;border-radius:3px;border:1px solid #b0b0b0;}
   .enter{float:right;margin:2px 0 0}
 
-
+.block-filter-form{
+    height: 33px;
+    width: 69%;
+    margin: 36px auto 0;
+    border-left: 1px solid #b0b0b0;
+    border-right: 1px solid #b0b0b0;
+    border-bottom: 1px solid #b0b0b0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
 .filter_form_full{border-top:1px solid #b0b0b0;padding:11px 0 11px;zoom:1;border-bottom:1px solid #b0b0b0;position:relative}
   .filter_form_full:after {content: '.';display: block;clear:both;visibility: hidden;height:0;font-size:0;}
   .filter_form_full select{float:left;width:214px;padding:2px 0 2px 5px;font:12px arial;color:#595959;margin:0 8px 9px}
@@ -1116,7 +1130,7 @@ margin-left: 135px;
 .img_good2{float:left;width:250px;height:175px;border:1px solid #d7d7d7;margin:0 13px 8px 0;position:relative}
 .img_good2 td{width:141px;height:141px;vertical-align:middle;text-align:center}
 
-.info_good2{overflow:hidden;zoom:1;margin-bottom: 10px;}
+.info_good2{overflow:hidden;zoom:1;margin-bottom: 10px; font-size: 22px;}
 .info_good2 table{
     width:100%;
     //background:#e2e2e2;
@@ -1125,7 +1139,7 @@ margin-left: 135px;
 .info_good2 td{//width:50%;
                 border-bottom:2px solid #fff;
                 color:#000;
-                padding:3px 0 3px 7px;
+                /*padding:3px 0 3px 7px;*/
                 height: 30px;
 }
 .info_good2 .even td{
@@ -1151,11 +1165,15 @@ margin-left: 135px;
 
 .info_good2 h1{
   margin: 0;
-  color: black;
   font-weight: bold;
   font-size: 20px;
 
 }
+.info_good2 h1 a{color: #E69A0E;}
+
+
+
+
 
 #tab_bor{
   border: solid 1px #c6c6c6;
@@ -1529,7 +1547,7 @@ height: 40px;
   background: url('../images/oform_zak.png') no-repeat;
   width: 150px;
   height: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 78px;
 }
 
@@ -1713,3 +1731,40 @@ background: url('../images/new/4.png') no-repeat;
       cursor: pointer;
       display:none;
     }
+
+@media (min-width:1800px) and (max-width:1815px){
+  .block-filter-form {width: 68%;}
+ }
+@media (min-width:1720px) and (max-width:1799px){
+  .block-filter-form {width: 66%;}
+}
+ @media (min-width:1640px) and (max-width:1719px){
+  .block-filter-form {width: 64%;}
+}
+ @media (min-width:1555px) and (max-width:1639px){
+  .block-filter-form {width: 62%;}
+}
+ @media (min-width:1500px) and (max-width:1554px){
+  .block-filter-form {width: 61%;}
+  form.filter_form select, form.filter_form .input {margin: 0 5%;}
+}
+ @media (min-width:1400px) and (max-width:1499px){
+  .block-filter-form {width: 59%;}
+  form.filter_form select, form.filter_form .input {margin: 0 4%;}
+}
+ @media (min-width:1300px) and (max-width:1399px){
+  .block-filter-form {width: 56%;}
+  form.filter_form select, form.filter_form .input {margin: 0 2%;}
+  .filter_form {width: 88%; padding: 0px 0 0 11%;}
+}
+ @media (min-width:1237px) and (max-width:1299px){
+  .block-filter-form {width: 54%;}
+  form.filter_form select, form.filter_form .input {margin: 0 1%;}
+  .filter_form {width: 86%; padding: 0px 0 0 13%;}
+}
+ @media (min-width:1000px) and (max-width:1236px){
+  .block-filter-form {width: 54%;}
+  form.filter_form select, form.filter_form .input {margin: 0 0%;}
+  .filter_form {width: 85%; padding: 0px 0 0 14%;}
+  .filter_form {width: 540px;}
+}
