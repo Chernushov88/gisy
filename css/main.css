@@ -1805,16 +1805,6 @@ background: url('../images/new/4.png') no-repeat;
  @media (min-width:100px) and (max-width:1299px){
   div.contacts {width: 78%;}
 }
-/* @media (min-width:1237px) and (max-width:1299px){
-  .block-filter-form {width: 54%;}
-  form.filter_form select {margin: 0 1%;}
-   form.filter_form .input {margin: 0 0 0 1%;}
-  .filter_form {width: 86%; padding: 7px 0 0 13%;}
+ @media (min-width:320px) and (max-width:1240px){
+  p.main_phone {font: bold 22px arial;}
 }
- @media (min-width:100px) and (max-width:1236px){
-  .block-filter-form {width: 54%;}
-  form.filter_form select {margin: 0 0%;}
-  form.filter_form .input {margin: 0 0%;}
-  .filter_form {width: 85%; padding: 7px 0 0 14%;}
-  .filter_form {width: 540px;}
-}*/
