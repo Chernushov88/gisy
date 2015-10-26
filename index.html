@@ -1,5 +1,5 @@
 ﻿
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
   <head>
     <title>Название сайта</title>
@@ -61,7 +61,7 @@
                 <a href="javascript:PopUpShow()" class='basic'><img width="166" height="54" src="images/zakaz_zv.png"></a>
               </div>
           </div>
-		      <div class="main_ph">
+          <div class="main_ph">
             <span class="f_cen"  id="tel_phon">
               <p class="main_phone">
                <span><img id = "click1"  src = "images/phone_ico.png" style = "margin-top: 8px; margin-left: -32px; padding-right: 10px;"/>/800 / </span>550-50-60
@@ -77,7 +77,7 @@
                 <img width="21" height="11" src = "images/email_ico.png" style = "margin-top: 4px; margin-left: -32px; padding-right: 10px;"/>E-mail: <a href="">gisy@gisy.ru</a>              </p>
             </span>  
           </div>
-          <div class="lich_kab">
+          <div class="lich_kab" style="width: 110px;">
               <span class="f_cen" id="ll_kab">
 
                   <p class="p_l_k">Личный кабинет</p>
@@ -94,37 +94,26 @@
                 </span>
             
             </a><a href="/curt"><p class="img_kar"></p></a>
+            
             <a href="/curt"><p class="of_zak"></p></a>
           </span>
         </div>
-         <div class="korz_in"><!--
-            <span class="f_cen">
-                  <span class="v_kar">
-                    <span class="pod">В корзине</span> 
-                    <span class="pod2">
-                      0                    </span> 
-                      шт.  на сумму <span class="pod2">0                    </span> руб.
-                  </span>
-                 	
-                  <a href=""><p class="img_kar"></p></a>
-                  <p class="m_srav"><a href="">В сравнении</a></p>
-                  <a href=""><p class="of_zak"></p></a>
-            </span>-->
+         <div class="korz_in">
          </div>
          <div class="clearl"></div>
        </div>
        <div class="main_menu">
-       	<table>
+      <table>
       <tr>
-		    <td ><a href="">Главная</a></td>
-    	    <td ><a href="">О компании</a></td>
-    	    <td ><a href="">Прайс-листы</a></td>
-    	    <td ><a href="">Доставка и оплата</a></td>
-    	    <td ><a href="">Монтаж</a></td>
-    	    <td ><a href="">Ремонт</a></td>
-    	    <td ><a href="">Вакансии</a></td>
-    	    <td ><a href="">Контакты</a></td>
-    	    <td ><a href="">Полезная информация</a></td>
+        <td><a href="">Главная</a></td>
+          <td ><a href="">О компании</a></td>
+          <td ><a href="">Прайс-листы</a></td>
+          <td ><a href="">Доставка и оплата</a></td>
+          <td ><a href="">Монтаж</a></td>
+          <td ><a href="">Ремонт</a></td>
+          <td ><a href="">Вакансии</a></td>
+          <td ><a href="">Контакты</a></td>
+          <td ><a href="">Полезная информация</a></td>
     
       </tr>
     </table>
@@ -135,522 +124,528 @@
        <form id="form1" action="/search" method="get" class="search_form">
         <fieldset>
           <input type="text" name="search" id="front_search_query" value="Поиск по товарам" class="input"/>
-          <input type="image" name="eaddress" id="eaddress" src="images/1x1.gif" class="go"/>
+          <input type="image" name="eaddress" id="eaddress" src="images/bgr/search2.png" class="go"/>
           <script type='text/javascript'>
               var objSearch = document.getElementById('front_search_query');
               objSearch.onfocus = function()  { if(objSearch.value=='Поиск по товарам') objSearch.value = '';}
               objSearch.onblur = function()   { if(objSearch.value=='') objSearch.value = 'Поиск по товарам';}
           </script>
         </fieldset>
+        <div style="margin: -5px 0 0 0;" class="filter-form-border"></div>
        </form>
+
        </noindex>
-    	  
+        
 
 
 
        <noindex>
        <div class="block-filter-form">
-       <form id="form1" action="/catalog" method="get" class="filter_form">
-        <fieldset>
-          <select name="params[16]">
-          <option selected="selected">Вид оборудования</option>
-          <option >AHD видеокамера корпусная</option>	     
-          <option >AHD видеокамера купольная</option>	     
-          <option >AHD видеокамера миниатюрная</option>	     
-          <option >AHD видеокамера модульная</option>	     
-          <option >AHD видеорегистратор</option>	     
-          <option >HD-CVI видеокамера корпусная</option>	     
-          <option >HD-CVI видеокамера купольная</option>	     
-          <option >HD-CVI видеорегистратор</option>	     
-          <option >HD-SDI видеокамера корпусная</option>	     
-          <option >HD-SDI видеокамера купольная</option>	     
-          <option >HD-SDI видеорегистратор</option>	     
-          <option >HD-TVI видеокамера корпусная</option>	     
-          <option >HD-TVI видеокамера купольная</option>	     
-          <option >HD-TVI видеорегистратор</option>	     
-          <option >IP видеокамера в термокожухе</option>	     
-          <option >IP видеокамера корпусная</option>	     
-          <option >IP видеокамера купольная</option>	     
-          <option >IP-видеодекодер</option>	     
-          <option >IP-видеорегистратор</option>	     
-          <option >IP-видеосервер</option>	     
-          <option >автомобильный видеорегистратор</option>	     
-          <option >автономный контроллер</option>	     
-          <option >адаптер</option>	     
-          <option >аккумулятор</option>	     
-          <option >аккумулятор для ноутбука</option>	     
-          <option >аудиодомофон</option>	     
-          <option >беспроводное видеооборудование</option>	     
-          <option >беспроводный извещатель</option>	     
-          <option >беспроводный оповещатель</option>	     
-          <option >беспроводный совмещенный извещатель</option>	     
-          <option >беспроводный уличный извещатель</option>	     
-          <option >биометрический считыватель</option>	     
-          <option >блок контроля</option>	     
-          <option >блок памяти видеодомофона</option>	     
-          <option >блок питания</option>	     
-          <option >брелок</option>	     
-          <option >видеоглазок</option>	     
-          <option >видеодетектор</option>	     
-          <option >видеодомофон беспроводной</option>	     
-          <option >видеодомофон цв.</option>	     
-          <option >видеодомофон ч/б</option>	     
-          <option >видеокам. в термокожухе</option>	     
-          <option >видеокам. корпусная</option>	     
-          <option >видеокам. корпусная ИК</option>	     
-          <option >видеокам. купольная</option>	     
-          <option >видеокам. купольная ИК</option>	     
-          <option >видеокам. миниатюрная</option>	     
-          <option >видеокам. модульная</option>	     
-          <option >видеокам. роботизир.</option>	     
-          <option >видеомонитор</option>	     
-          <option >видеорегистратор 01-канальный</option>	     
-          <option >видеорегистратор 04-канальный</option>	     
-          <option >видеорегистратор 08-канальный</option>	     
-          <option >видеорегистратор 09-канальный</option>	     
-          <option >видеорегистратор 12-канальный</option>	     
-          <option >видеорегистратор 16-канальный</option>	     
-          <option >видеорегистратор 20-канальный</option>	     
-          <option >видеорегистратор 24-канальный</option>	     
-          <option >видеорегистратор 28-канальный</option>	     
-          <option >видеорегистратор 32-канальный</option>	     
-          <option >видеорегистратор 36-канальный</option>	     
-          <option >видеорегистратор 40-канальный</option>	     
-          <option >видеорегистратор 44-канальный</option>	     
-          <option >видеорегистратор 48-канальный</option>	     
-          <option >видеорегистратор 52-канальный</option>	     
-          <option >видеорегистратор 56-канальный</option>	     
-          <option >видеорегистратор 60-канальный</option>	     
-          <option >видеорегистратор 64-канальный</option>	     
-          <option >видеорегистратор автомобильный</option>	     
-          <option >видеофон</option>	     
-          <option >выз. панель IP домофона</option>	     
-          <option >выз. панель аудиодомофона</option>	     
-          <option >выз. панель многокварт. видеодомофона</option>	     
-          <option >выз. панель цв. видеодомофона</option>	     
-          <option >выз. панель ч/б видеодомофона</option>	     
-          <option >громкоговоритель</option>	     
-          <option >датч. подачи тревоги</option>	     
-          <option >датчик движения</option>	     
-          <option >датчик магнитоконтактный</option>	     
-          <option >датчик разбития стекла</option>	     
-          <option >доводчик</option>	     
-          <option >дополнительное оборудование</option>	     
-          <option >дымовой извещатель</option>	     
-          <option >жесткий диск</option>	     
-          <option >звуковая колонка</option>	     
-          <option >идентификатор</option>	     
-          <option >изв. 2-х провод.</option>	     
-          <option >изв. 4-х провод.</option>	     
-          <option >изв. автономный</option>	     
-          <option >изв. акустич.</option>	     
-          <option >изв. взрывозащ.</option>	     
-          <option >изв. емкостн.</option>	     
-          <option >изв. комбиниров.</option>	     
-          <option >изв. линейный</option>	     
-          <option >изв. магнитоконт.</option>	     
-          <option >изв. пламени</option>	     
-          <option >изв. поверхн.</option>	     
-          <option >изв. прохода</option>	     
-          <option >изв. радиоволн.</option>	     
-          <option >изв. ручной</option>	     
-          <option >изв. тепловой</option>	     
-          <option >изв. ультразв.</option>	     
-          <option >изв. утечки воды</option>	     
-          <option >изв. утечки газа</option>	     
-          <option >изв. электроконт.</option>	     
-          <option >извещатель разбития стекла</option>	     
-          <option >ИК активный</option>	     
-          <option >ИК извещатель</option>	     
-          <option >ИК пассивный</option>	     
-          <option >ИК прожектор</option>	     
-          <option >индикатор</option>	     
-          <option >инструменты</option>	     
-          <option >инфракрасный светильник</option>	     
-          <option >источник резервного питания</option>	     
-          <option >кабель</option>	     
-          <option >кабель-канал</option>	     
-          <option >калитка</option>	     
-          <option >картоприемник</option>	     
-          <option >картридж принтера</option>	     
-          <option >квадратор</option>	     
-          <option >кнопка выхода</option>	     
-          <option >кодовая панель</option>	     
-          <option >кожух</option>	     
-          <option >коммутатор</option>	     
-          <option >коммутатор линий</option>	     
-          <option >комплект видеонаблюдения</option>	     
-          <option >комплект сигнализации</option>	     
-          <option >конвертор</option>	     
-          <option >контроллер</option>	     
-          <option >корпус купольн. видеокамер</option>	     
-          <option >кронштейн</option>	     
-          <option >лента принтера</option>	     
-          <option >металлодетектор</option>	     
-          <option >микрофон</option>	     
-          <option >микшерная панель</option>	     
-          <option >многокв. домофон</option>	     
-          <option >модуль</option>	     
-          <option >мультиплексор</option>	     
-          <option >муляж видеокамеры</option>	     
-          <option >объектив M12</option>	     
-          <option >объектив без АРД</option>	     
-          <option >объектив мегапиксельный</option>	     
-          <option >объектив с АРД</option>	     
-          <option >ограждение</option>	     
-          <option >оповещатель звуковой</option>	     
-          <option >оповещатель свето-звуковой</option>	     
-          <option >оповещатель световой</option>	     
-          <option >перегов. устройство</option>	     
-          <option >переговорное устройство</option>	     
-          <option >передатчик видеосигнала</option>	     
-          <option >пластиковая карта</option>	     
-          <option >плата аудиоввода</option>	     
-          <option >плата видеозахвата</option>	     
-          <option >плата внешних датчиков</option>	     
-          <option >плата управления</option>	     
-          <option >пов. устройство</option>	     
-          <option >полноростовой турникет</option>	     
-          <option >полуростовой турникет</option>	     
-          <option >ППК</option>	     
-          <option >преобразователь видеосигнала</option>	     
-          <option >преобразователь интерфейса</option>	     
-          <option >прибор охранно-пожарный</option>	     
-          <option >приемник видеосигнала</option>	     
-          <option >приемно-контрольный прибор</option>	     
-          <option >приемо-передатчик видеосигнала</option>	     
-          <option >принтер</option>	     
-          <option >программное обеспечение</option>	     
-          <option >пульт управления</option>	     
-          <option >риббон</option>	     
-          <option >светильник аварийного освещения</option>	     
-          <option >сетевой видеорегистратор</option>	     
-          <option >сетевой видеосервер</option>	     
-          <option >сетевой контроллер</option>	     
-          <option >система оповещения</option>	     
-          <option >СКУД</option>	     
-          <option >специализ. турникет</option>	     
-          <option >станция мониторинга</option>	     
-          <option >считыватель</option>	     
-          <option >считыватель-контроллер</option>	     
-          <option >табло</option>	     
-          <option >телеф. приставка</option>	     
-          <option >терминал учета рабочего времени</option>	     
-          <option >термокожух</option>	     
-          <option >термостат</option>	     
-          <option >тестер</option>	     
-          <option >тестовый монитор</option>	     
-          <option >трансфокатор </option>	     
-          <option >тумбовый турникет</option>	     
-          <option >турникет</option>	     
-          <option >турникет-трипод</option>	     
-          <option >усилитель</option>	     
-          <option >усилитель мощности</option>	     
-          <option >устройство грозозащиты</option>	     
-          <option >фотоловушка</option>	     
-          <option >шлагбаум</option>	     
-          <option >электрозащелка</option>	     
-          <option >электромагн. замок</option>	     
-          <option >электромех. замок</option>	     
-          <option >электронная проходная</option>	     
-        </select>
-        <select name="brand_id">
-            <option selected="selected">Производитель</option>
-          <option value="242" >3S Vision</option>
-        	<option value="276" >ABRON</option>
-        	<option value="82" >AccordTec</option>
-        	<option value="332" >Acer</option>
-        	<option value="241" >ACTi</option>
-        	<option value="272" >ActiveCam</option>
-        	<option value="52" >Activision</option>
-        	<option value="125" >Acumen</option>
-        	<option value="42" >Ademco</option>
-        	<option value="219" >Advocam</option>
-        	<option value="325" >AKS</option>
-        	<option value="204" >Aler</option>
-        	<option value="61" >Apollo</option>
-        	<option value="334" >Apple</option>
-        	<option value="307" >Arax</option>
-        	<option value="240" >Arecont Vision</option>
-        	<option value="263" >ARGO</option>
-        	<option value="335" >Asus</option>
-        	<option value="317" >ATIS</option>
-        	<option value="291" >Aupax</option>
-        	<option value="53" >Aurine</option>
-        	<option value="180" >AV Tech  </option>
-        	<option value="172" >Avenir</option>
-        	<option value="134" >Axis </option>
-        	<option value="185" >Berger</option>
-        	<option value="167" >BestDVR</option>
-        	<option value="305" >BestIPcam</option>
-        	<option value="224" >Beward</option>
-        	<option value="208" >BFT</option>
-        	<option value="316" >Bravo</option>
-        	<option value="303" >BSP Security</option>
-        	<option value="207" >CAME</option>
-        	<option value="255" >Capricorn</option>
-        	<option value="92" >CEIA</option>
-        	<option value="311" >Cisa</option>
-        	<option value="175" >CNB</option>
-        	<option value="34" >Commax</option>
-        	<option value="260" >Competition</option>
-        	<option value="130" >Computar</option>
-        	<option value="102" >Corum</option>
-        	<option value="166" >CPcam           </option>
-        	<option value="28" >CQR</option>
-        	<option value="70" >Cross Point</option>
-        	<option value="24" >Crow</option>
-        	<option value="128" >CTV</option>
-        	<option value="139" >Cubris</option>
-        	<option value="297" >Cyfron</option>
-        	<option value="324" >Dahua</option>
-        	<option value="165" >Dallmeier</option>
-        	<option value="206" >DeGross</option>
-        	<option value="336" >Dell</option>
-        	<option value="142" >DFS </option>
-        	<option value="164" >DiGiVi</option>
-        	<option value="83" >Dorma</option>
-        	<option value="31" >DSC</option>
-        	<option value="238" >DsQ</option>
-        	<option value="274" >DSSL</option>
-        	<option value="80" >Ebelco</option>
-        	<option value="320" >Electronics Line</option>
-        	<option value="197" >Elmes Electronic</option>
-        	<option value="268" >Emsok</option>
-        	<option value="144" >Etrovision</option>
-        	<option value="200" >EverAccess</option>
-        	<option value="100" >EverFocus</option>
-        	<option value="280" >Evidence</option>
-        	<option value="304" >Evolis</option>
-        	<option value="245" >Ewclid</option>
-        	<option value="267" >Exsnet</option>
-        	<option value="261" >Falcon Eye</option>
-        	<option value="95" >Fargo</option>
-        	<option value="21" >Focus</option>
-        	<option value="333" >Fujitsu-Siemens</option>
-        	<option value="331" >Full Energy</option>
-        	<option value="11" >G.S.N.</option>
-        	<option value="103" >GANZ</option>
-        	<option value="54" >GARDI</option>
-        	<option value="93" >GARRETT</option>
-        	<option value="201" >Gate</option>
-        	<option value="90" >Genius</option>
-        	<option value="149" >GeoVision</option>
-        	<option value="56" >Germikom</option>
-        	<option value="84" >GEZE</option>
-        	<option value="345" >Giraffe</option>
-        	<option value="322" >GNS</option>
-        	<option value="163" >GRIZZLY</option>
-        	<option value="150" >Hawell</option>
-        	<option value="104" >HI-Sharp</option>
-        	<option value="69" >HID</option>
-        	<option value="162" >Hikvision</option>
-        	<option value="342" >HiQ-Electronics</option>
-        	<option value="160" >Hitron</option>
-        	<option value="337" >HP Compaq</option>
-        	<option value="126" >Hsintek</option>
-        	<option value="159" >Hunt electronic</option>
-        	<option value="55" >Hyundai</option>
-        	<option value="226" >iCAM</option>
-        	<option value="146" >ILDVR</option>
-        	<option value="68" >Indala </option>
-        	<option value="105" >Infinity</option>
-        	<option value="106" >Innovi </option>
-        	<option value="59" >Inter-M</option>
-        	<option value="309" >IPEYE</option>
-        	<option value="71" >IronLogic</option>
-        	<option value="87" >ISEO</option>
-        	<option value="58" >ITC</option>
-        	<option value="327" >J-Cam</option>
-        	<option value="326" >J-Lock</option>
-        	<option value="328" >J-Phone</option>
-        	<option value="329" >J-Power</option>
-        	<option value="107" >J2000 </option>
-        	<option value="108" >J2000IP</option>
-        	<option value="225" >Jablotron</option>
-        	<option value="323" >Jassun</option>
-        	<option value="109" >JEC</option>
-        	<option value="189" >Jetek Pro</option>
-        	<option value="319" >Jetron</option>
-        	<option value="330" >JSB</option>
-        	<option value="51" >Kenwei</option>
-        	<option value="203" >Kocom</option>
-        	<option value="67" >Korlta</option>
-        	<option value="151" >KPsec</option>
-        	<option value="110" >KT&C</option>
-        	<option value="111" >LAICE </option>
-        	<option value="338" >Lenovo IBM</option>
-        	<option value="184" >LG</option>
-        	<option value="211" >LTV</option>
-        	<option value="302" >Macroscop</option>
-        	<option value="33" >Macurco</option>
-        	<option value="288" >Master</option>
-        	<option value="313" >MAXYS</option>
-        	<option value="131" >MicroDigital</option>
-        	<option value="343" >Millennium</option>
-        	<option value="339" >MSI</option>
-        	<option value="296" >NAC</option>
-        	<option value="76" >NEDAP</option>
-        	<option value="266" >NeoVizus</option>
-        	<option value="91" >NICE</option>
-        	<option value="210" >NordGuard</option>
-        	<option value="112" >Novicam </option>
-        	<option value="113" >Nuvico</option>
-        	<option value="138" >NVT</option>
-        	<option value="81" >O&C</option>
-        	<option value="88" >OMA</option>
-        	<option value="22" >Optex</option>
-        	<option value="183" >Optimus</option>
-        	<option value="284" >OSNOVO</option>
-        	<option value="222" >OUBAO</option>
-        	<option value="340" >Packard Bell</option>
-        	<option value="227" >Panacom</option>
-        	<option value="114" >Panasonic</option>
-        	<option value="253" >Panda</option>
-        	<option value="192" >Paradox</option>
-        	<option value="66" >Parsec</option>
-        	<option value="129" >Pelco</option>
-        	<option value="171" >Pentax</option>
-        	<option value="63" >PERCo</option>
-        	<option value="133" >Pinetron</option>
-        	<option value="158" >Polyvision</option>
-        	<option value="344" >Power</option>
-        	<option value="281" >Praxis</option>
-        	<option value="86" >Proel </option>
-        	<option value="265" >Proto-X</option>
-        	<option value="75" >Prox</option>
-        	<option value="64" >ProxWay</option>
-        	<option value="99" >PV-link</option>
-        	<option value="26" >Pyronix</option>
-        	<option value="152" >Qtum</option>
-        	<option value="277" >Quantum</option>
-        	<option value="174" >Ricom</option>
-        	<option value="252" >Roger</option>
-        	<option value="271" >Roiscok</option>
-        	<option value="62" >Rosslare Security Products</option>
-        	<option value="57" >Roxton</option>
-        	<option value="278" >RusGuard</option>
-        	<option value="173" >RVi</option>
-        	<option value="186" >Safari</option>
-        	<option value="300" >Sambo</option>
-        	<option value="77" >Samsung</option>
-        	<option value="279" >Sarmatt</option>
-        	<option value="32" >SASO</option>
-        	<option value="137" >SC&T</option>
-        	<option value="41" >Scientech Electronics</option>
-        	<option value="141" >SF&T</option>
-        	<option value="136" >SI</option>
-        	<option value="232" >SimpleIP</option>
-        	<option value="259" >Slinex</option>
-        	<option value="118" >Smartec</option>
-        	<option value="341" >Soca</option>
-        	<option value="282" >Sony</option>
-        	<option value="170" >Spacecom</option>
-        	<option value="312" >Spacetechnology</option>
-        	<option value="198" >Spezvision</option>
-        	<option value="270" >Sphinx</option>
-        	<option value="119" >Spymax</option>
-        	<option value="14" >STA</option>
-        	<option value="301" >Stelberry</option>
-        	<option value="157" >Sunkwang</option>
-        	<option value="13" >Sunwave</option>
-        	<option value="169" >Tamron</option>
-        	<option value="308" >Tantos</option>
-        	<option value="315" >TBT</option>
-        	<option value="299" >TBTEC</option>
-        	<option value="193" >Texecom</option>
-        	<option value="286" >Tezter</option>
-        	<option value="168" >Tokina</option>
-        	<option value="217" >Tornet</option>
-        	<option value="120" >TRUEN </option>
-        	<option value="78" >TSS</option>
-        	<option value="247" >Unicam</option>
-        	<option value="209" >Unimo</option>
-        	<option value="140" >V1net </option>
-        	<option value="196" >V1net Advokat</option>
-        	<option value="195" >V1net Deni</option>
-        	<option value="205" >V1net Mone</option>
-        	<option value="244" >V1netIP </option>
-        	<option value="314" >Videopark</option>
-        	<option value="101" >Videotec</option>
-        	<option value="123" >ViDigi </option>
-        	<option value="124" >Viewse </option>
-        	<option value="321" >Viro</option>
-        	<option value="161" >Vision HI-Tech</option>
-        	<option value="25" >Visonic</option>
-        	<option value="295" >Vivotek</option>
-        	<option value="121" >VTV</option>
-        	<option value="243" >WAPA</option>
-        	<option value="187" >Watec</option>
-        	<option value="220" >WebGate</option>
-        	<option value="285" >Wivat</option>
-        	<option value="122" >Wizebox</option>
-        	<option value="79" >X-press</option>
-        	<option value="298" >XVI</option>
-        	<option value="318" >YLI</option>
-        	<option value="94" >Zebra</option>
-        	<option value="269" >ZKTeco</option>
-        	<option value="47" >Альтоника</option>
-        	<option value="2" >Аргус-Спектр</option>
-        	<option value="60" >Арсенал Безопасности</option>
-        	<option value="3" >Артон</option>
-        	<option value="182" >БайтЭрг</option>
-        	<option value="45" >Бастион</option>
-        	<option value="306" >Блокпост</option>
-        	<option value="38" >Болид</option>
-        	<option value="73" >Витек</option>
-        	<option value="36" >ВЭРС</option>
-        	<option value="262" >Давикон</option>
-        	<option value="250" >Иволга</option>
-        	<option value="135" >Инфотех</option>
-        	<option value="4" >ИРСЭТ</option>
-        	<option value="9" >К-Инженеринг </option>
-        	<option value="17" >КБ Прибор</option>
-        	<option value="287" >Линия</option>
-        	<option value="39" >Магистраль</option>
-        	<option value="1" >Магнито-Контакт</option>
-        	<option value="294" >МВК-Light-IP</option>
-        	<option value="7" >МЗЭП</option>
-        	<option value="264" >МикроКомСервис </option>
-        	<option value="233" >Олевс</option>
-        	<option value="275" >Оникс</option>
-        	<option value="65" >Пентакон</option>
-        	<option value="8" >Полисервис</option>
-        	<option value="292" >Проксима</option>
-        	<option value="293" >Радий</option>
-        	<option value="29" >Риэлта</option>
-        	<option value="89" >РостЕвроСтрой </option>
-        	<option value="96" >Рубеж</option>
-        	<option value="258" >Санком</option>
-        	<option value="72" >Сеан</option>
-        	<option value="283" >Себокс</option>
-        	<option value="27" >Септима</option>
-        	<option value="18" >Сибирский Арсенал</option>
-        	<option value="37" >Сигма-ИС</option>
-        	<option value="15" >Спектрон</option>
-        	<option value="251" >Спэк</option>
-        	<option value="43" >Теко</option>
-        	<option value="98" >Телеинформсвязь</option>
-        	<option value="234" >Тирэкс </option>
-        	<option value="310" >Точка Зрения</option>
-        	<option value="74" >Шэлни</option>
-        	<option value="50" >Электротехника и Автоматика</option>
-        	<option value="215" >Эликс</option>
-        	<option value="97" >Элтех</option>
-        	<option value="194" >Юнитест</option>				
-        </select>
-        <input type="text" name="marking" id="front_code" class="input" value="Код товара"/>
-        <input type="image" name="eaddress" id="eaddress" src="images/bgr/podtobnie.png" class="filter"/>
-        <script type='text/javascript'>
-            var objSearch1 = document.getElementById('front_code');
-            objSearch1.onfocus = function() 	{ if(objSearch1.value=='Код товара') objSearch1.value = '';}
-            objSearch1.onblur = function() 	{ if(objSearch1.value=='') objSearch1.value = 'Код товара';}
-        </script>
-      </fieldset>
-      </form>
+         <form id="form1" action="/catalog" method="get" class="filter_form">
+          <fieldset>
+            <select name="params[16]">
+            <option selected="selected">Вид оборудования</option>
+            <option >AHD видеокамера корпусная</option>      
+            <option >AHD видеокамера купольная</option>      
+            <option >AHD видеокамера миниатюрная</option>      
+            <option >AHD видеокамера модульная</option>      
+            <option >AHD видеорегистратор</option>       
+            <option >HD-CVI видеокамера корпусная</option>       
+            <option >HD-CVI видеокамера купольная</option>       
+            <option >HD-CVI видеорегистратор</option>      
+            <option >HD-SDI видеокамера корпусная</option>       
+            <option >HD-SDI видеокамера купольная</option>       
+            <option >HD-SDI видеорегистратор</option>      
+            <option >HD-TVI видеокамера корпусная</option>       
+            <option >HD-TVI видеокамера купольная</option>       
+            <option >HD-TVI видеорегистратор</option>      
+            <option >IP видеокамера в термокожухе</option>       
+            <option >IP видеокамера корпусная</option>       
+            <option >IP видеокамера купольная</option>       
+            <option >IP-видеодекодер</option>      
+            <option >IP-видеорегистратор</option>      
+            <option >IP-видеосервер</option>       
+            <option >автомобильный видеорегистратор</option>       
+            <option >автономный контроллер</option>      
+            <option >адаптер</option>      
+            <option >аккумулятор</option>      
+            <option >аккумулятор для ноутбука</option>       
+            <option >аудиодомофон</option>       
+            <option >беспроводное видеооборудование</option>       
+            <option >беспроводный извещатель</option>      
+            <option >беспроводный оповещатель</option>       
+            <option >беспроводный совмещенный извещатель</option>      
+            <option >беспроводный уличный извещатель</option>      
+            <option >биометрический считыватель</option>       
+            <option >блок контроля</option>      
+            <option >блок памяти видеодомофона</option>      
+            <option >блок питания</option>       
+            <option >брелок</option>       
+            <option >видеоглазок</option>      
+            <option >видеодетектор</option>      
+            <option >видеодомофон беспроводной</option>      
+            <option >видеодомофон цв.</option>       
+            <option >видеодомофон ч/б</option>       
+            <option >видеокам. в термокожухе</option>      
+            <option >видеокам. корпусная</option>      
+            <option >видеокам. корпусная ИК</option>       
+            <option >видеокам. купольная</option>      
+            <option >видеокам. купольная ИК</option>       
+            <option >видеокам. миниатюрная</option>      
+            <option >видеокам. модульная</option>      
+            <option >видеокам. роботизир.</option>       
+            <option >видеомонитор</option>       
+            <option >видеорегистратор 01-канальный</option>      
+            <option >видеорегистратор 04-канальный</option>      
+            <option >видеорегистратор 08-канальный</option>      
+            <option >видеорегистратор 09-канальный</option>      
+            <option >видеорегистратор 12-канальный</option>      
+            <option >видеорегистратор 16-канальный</option>      
+            <option >видеорегистратор 20-канальный</option>      
+            <option >видеорегистратор 24-канальный</option>      
+            <option >видеорегистратор 28-канальный</option>      
+            <option >видеорегистратор 32-канальный</option>      
+            <option >видеорегистратор 36-канальный</option>      
+            <option >видеорегистратор 40-канальный</option>      
+            <option >видеорегистратор 44-канальный</option>      
+            <option >видеорегистратор 48-канальный</option>      
+            <option >видеорегистратор 52-канальный</option>      
+            <option >видеорегистратор 56-канальный</option>      
+            <option >видеорегистратор 60-канальный</option>      
+            <option >видеорегистратор 64-канальный</option>      
+            <option >видеорегистратор автомобильный</option>       
+            <option >видеофон</option>       
+            <option >выз. панель IP домофона</option>      
+            <option >выз. панель аудиодомофона</option>      
+            <option >выз. панель многокварт. видеодомофона</option>      
+            <option >выз. панель цв. видеодомофона</option>      
+            <option >выз. панель ч/б видеодомофона</option>      
+            <option >громкоговоритель</option>       
+            <option >датч. подачи тревоги</option>       
+            <option >датчик движения</option>      
+            <option >датчик магнитоконтактный</option>       
+            <option >датчик разбития стекла</option>       
+            <option >доводчик</option>       
+            <option >дополнительное оборудование</option>      
+            <option >дымовой извещатель</option>       
+            <option >жесткий диск</option>       
+            <option >звуковая колонка</option>       
+            <option >идентификатор</option>      
+            <option >изв. 2-х провод.</option>       
+            <option >изв. 4-х провод.</option>       
+            <option >изв. автономный</option>      
+            <option >изв. акустич.</option>      
+            <option >изв. взрывозащ.</option>      
+            <option >изв. емкостн.</option>      
+            <option >изв. комбиниров.</option>       
+            <option >изв. линейный</option>      
+            <option >изв. магнитоконт.</option>      
+            <option >изв. пламени</option>       
+            <option >изв. поверхн.</option>      
+            <option >изв. прохода</option>       
+            <option >изв. радиоволн.</option>      
+            <option >изв. ручной</option>      
+            <option >изв. тепловой</option>      
+            <option >изв. ультразв.</option>       
+            <option >изв. утечки воды</option>       
+            <option >изв. утечки газа</option>       
+            <option >изв. электроконт.</option>      
+            <option >извещатель разбития стекла</option>       
+            <option >ИК активный</option>      
+            <option >ИК извещатель</option>      
+            <option >ИК пассивный</option>       
+            <option >ИК прожектор</option>       
+            <option >индикатор</option>      
+            <option >инструменты</option>      
+            <option >инфракрасный светильник</option>      
+            <option >источник резервного питания</option>      
+            <option >кабель</option>       
+            <option >кабель-канал</option>       
+            <option >калитка</option>      
+            <option >картоприемник</option>      
+            <option >картридж принтера</option>      
+            <option >квадратор</option>      
+            <option >кнопка выхода</option>      
+            <option >кодовая панель</option>       
+            <option >кожух</option>      
+            <option >коммутатор</option>       
+            <option >коммутатор линий</option>       
+            <option >комплект видеонаблюдения</option>       
+            <option >комплект сигнализации</option>      
+            <option >конвертор</option>      
+            <option >контроллер</option>       
+            <option >корпус купольн. видеокамер</option>       
+            <option >кронштейн</option>      
+            <option >лента принтера</option>       
+            <option >металлодетектор</option>      
+            <option >микрофон</option>       
+            <option >микшерная панель</option>       
+            <option >многокв. домофон</option>       
+            <option >модуль</option>       
+            <option >мультиплексор</option>      
+            <option >муляж видеокамеры</option>      
+            <option >объектив M12</option>       
+            <option >объектив без АРД</option>       
+            <option >объектив мегапиксельный</option>      
+            <option >объектив с АРД</option>       
+            <option >ограждение</option>       
+            <option >оповещатель звуковой</option>       
+            <option >оповещатель свето-звуковой</option>       
+            <option >оповещатель световой</option>       
+            <option >перегов. устройство</option>      
+            <option >переговорное устройство</option>      
+            <option >передатчик видеосигнала</option>      
+            <option >пластиковая карта</option>      
+            <option >плата аудиоввода</option>       
+            <option >плата видеозахвата</option>       
+            <option >плата внешних датчиков</option>       
+            <option >плата управления</option>       
+            <option >пов. устройство</option>      
+            <option >полноростовой турникет</option>       
+            <option >полуростовой турникет</option>      
+            <option >ППК</option>      
+            <option >преобразователь видеосигнала</option>       
+            <option >преобразователь интерфейса</option>       
+            <option >прибор охранно-пожарный</option>      
+            <option >приемник видеосигнала</option>      
+            <option >приемно-контрольный прибор</option>       
+            <option >приемо-передатчик видеосигнала</option>       
+            <option >принтер</option>      
+            <option >программное обеспечение</option>      
+            <option >пульт управления</option>       
+            <option >риббон</option>       
+            <option >светильник аварийного освещения</option>      
+            <option >сетевой видеорегистратор</option>       
+            <option >сетевой видеосервер</option>      
+            <option >сетевой контроллер</option>       
+            <option >система оповещения</option>       
+            <option >СКУД</option>       
+            <option >специализ. турникет</option>      
+            <option >станция мониторинга</option>      
+            <option >считыватель</option>      
+            <option >считыватель-контроллер</option>       
+            <option >табло</option>      
+            <option >телеф. приставка</option>       
+            <option >терминал учета рабочего времени</option>      
+            <option >термокожух</option>       
+            <option >термостат</option>      
+            <option >тестер</option>       
+            <option >тестовый монитор</option>       
+            <option >трансфокатор </option>      
+            <option >тумбовый турникет</option>      
+            <option >турникет</option>       
+            <option >турникет-трипод</option>      
+            <option >усилитель</option>      
+            <option >усилитель мощности</option>       
+            <option >устройство грозозащиты</option>       
+            <option >фотоловушка</option>      
+            <option >шлагбаум</option>       
+            <option >электрозащелка</option>       
+            <option >электромагн. замок</option>       
+            <option >электромех. замок</option>      
+            <option >электронная проходная</option>      
+          </select>
+          <select name="brand_id">
+              <option selected="selected">Производитель</option>
+            <option value="242" >3S Vision</option>
+            <option value="276" >ABRON</option>
+            <option value="82" >AccordTec</option>
+            <option value="332" >Acer</option>
+            <option value="241" >ACTi</option>
+            <option value="272" >ActiveCam</option>
+            <option value="52" >Activision</option>
+            <option value="125" >Acumen</option>
+            <option value="42" >Ademco</option>
+            <option value="219" >Advocam</option>
+            <option value="325" >AKS</option>
+            <option value="204" >Aler</option>
+            <option value="61" >Apollo</option>
+            <option value="334" >Apple</option>
+            <option value="307" >Arax</option>
+            <option value="240" >Arecont Vision</option>
+            <option value="263" >ARGO</option>
+            <option value="335" >Asus</option>
+            <option value="317" >ATIS</option>
+            <option value="291" >Aupax</option>
+            <option value="53" >Aurine</option>
+            <option value="180" >AV Tech  </option>
+            <option value="172" >Avenir</option>
+            <option value="134" >Axis </option>
+            <option value="185" >Berger</option>
+            <option value="167" >BestDVR</option>
+            <option value="305" >BestIPcam</option>
+            <option value="224" >Beward</option>
+            <option value="208" >BFT</option>
+            <option value="316" >Bravo</option>
+            <option value="303" >BSP Security</option>
+            <option value="207" >CAME</option>
+            <option value="255" >Capricorn</option>
+            <option value="92" >CEIA</option>
+            <option value="311" >Cisa</option>
+            <option value="175" >CNB</option>
+            <option value="34" >Commax</option>
+            <option value="260" >Competition</option>
+            <option value="130" >Computar</option>
+            <option value="102" >Corum</option>
+            <option value="166" >CPcam           </option>
+            <option value="28" >CQR</option>
+            <option value="70" >Cross Point</option>
+            <option value="24" >Crow</option>
+            <option value="128" >CTV</option>
+            <option value="139" >Cubris</option>
+            <option value="297" >Cyfron</option>
+            <option value="324" >Dahua</option>
+            <option value="165" >Dallmeier</option>
+            <option value="206" >DeGross</option>
+            <option value="336" >Dell</option>
+            <option value="142" >DFS </option>
+            <option value="164" >DiGiVi</option>
+            <option value="83" >Dorma</option>
+            <option value="31" >DSC</option>
+            <option value="238" >DsQ</option>
+            <option value="274" >DSSL</option>
+            <option value="80" >Ebelco</option>
+            <option value="320" >Electronics Line</option>
+            <option value="197" >Elmes Electronic</option>
+            <option value="268" >Emsok</option>
+            <option value="144" >Etrovision</option>
+            <option value="200" >EverAccess</option>
+            <option value="100" >EverFocus</option>
+            <option value="280" >Evidence</option>
+            <option value="304" >Evolis</option>
+            <option value="245" >Ewclid</option>
+            <option value="267" >Exsnet</option>
+            <option value="261" >Falcon Eye</option>
+            <option value="95" >Fargo</option>
+            <option value="21" >Focus</option>
+            <option value="333" >Fujitsu-Siemens</option>
+            <option value="331" >Full Energy</option>
+            <option value="11" >G.S.N.</option>
+            <option value="103" >GANZ</option>
+            <option value="54" >GARDI</option>
+            <option value="93" >GARRETT</option>
+            <option value="201" >Gate</option>
+            <option value="90" >Genius</option>
+            <option value="149" >GeoVision</option>
+            <option value="56" >Germikom</option>
+            <option value="84" >GEZE</option>
+            <option value="345" >Giraffe</option>
+            <option value="322" >GNS</option>
+            <option value="163" >GRIZZLY</option>
+            <option value="150" >Hawell</option>
+            <option value="104" >HI-Sharp</option>
+            <option value="69" >HID</option>
+            <option value="162" >Hikvision</option>
+            <option value="342" >HiQ-Electronics</option>
+            <option value="160" >Hitron</option>
+            <option value="337" >HP Compaq</option>
+            <option value="126" >Hsintek</option>
+            <option value="159" >Hunt electronic</option>
+            <option value="55" >Hyundai</option>
+            <option value="226" >iCAM</option>
+            <option value="146" >ILDVR</option>
+            <option value="68" >Indala </option>
+            <option value="105" >Infinity</option>
+            <option value="106" >Innovi </option>
+            <option value="59" >Inter-M</option>
+            <option value="309" >IPEYE</option>
+            <option value="71" >IronLogic</option>
+            <option value="87" >ISEO</option>
+            <option value="58" >ITC</option>
+            <option value="327" >J-Cam</option>
+            <option value="326" >J-Lock</option>
+            <option value="328" >J-Phone</option>
+            <option value="329" >J-Power</option>
+            <option value="107" >J2000 </option>
+            <option value="108" >J2000IP</option>
+            <option value="225" >Jablotron</option>
+            <option value="323" >Jassun</option>
+            <option value="109" >JEC</option>
+            <option value="189" >Jetek Pro</option>
+            <option value="319" >Jetron</option>
+            <option value="330" >JSB</option>
+            <option value="51" >Kenwei</option>
+            <option value="203" >Kocom</option>
+            <option value="67" >Korlta</option>
+            <option value="151" >KPsec</option>
+            <option value="110" >KT&C</option>
+            <option value="111" >LAICE </option>
+            <option value="338" >Lenovo IBM</option>
+            <option value="184" >LG</option>
+            <option value="211" >LTV</option>
+            <option value="302" >Macroscop</option>
+            <option value="33" >Macurco</option>
+            <option value="288" >Master</option>
+            <option value="313" >MAXYS</option>
+            <option value="131" >MicroDigital</option>
+            <option value="343" >Millennium</option>
+            <option value="339" >MSI</option>
+            <option value="296" >NAC</option>
+            <option value="76" >NEDAP</option>
+            <option value="266" >NeoVizus</option>
+            <option value="91" >NICE</option>
+            <option value="210" >NordGuard</option>
+            <option value="112" >Novicam </option>
+            <option value="113" >Nuvico</option>
+            <option value="138" >NVT</option>
+            <option value="81" >O&C</option>
+            <option value="88" >OMA</option>
+            <option value="22" >Optex</option>
+            <option value="183" >Optimus</option>
+            <option value="284" >OSNOVO</option>
+            <option value="222" >OUBAO</option>
+            <option value="340" >Packard Bell</option>
+            <option value="227" >Panacom</option>
+            <option value="114" >Panasonic</option>
+            <option value="253" >Panda</option>
+            <option value="192" >Paradox</option>
+            <option value="66" >Parsec</option>
+            <option value="129" >Pelco</option>
+            <option value="171" >Pentax</option>
+            <option value="63" >PERCo</option>
+            <option value="133" >Pinetron</option>
+            <option value="158" >Polyvision</option>
+            <option value="344" >Power</option>
+            <option value="281" >Praxis</option>
+            <option value="86" >Proel </option>
+            <option value="265" >Proto-X</option>
+            <option value="75" >Prox</option>
+            <option value="64" >ProxWay</option>
+            <option value="99" >PV-link</option>
+            <option value="26" >Pyronix</option>
+            <option value="152" >Qtum</option>
+            <option value="277" >Quantum</option>
+            <option value="174" >Ricom</option>
+            <option value="252" >Roger</option>
+            <option value="271" >Roiscok</option>
+            <option value="62" >Rosslare Security Products</option>
+            <option value="57" >Roxton</option>
+            <option value="278" >RusGuard</option>
+            <option value="173" >RVi</option>
+            <option value="186" >Safari</option>
+            <option value="300" >Sambo</option>
+            <option value="77" >Samsung</option>
+            <option value="279" >Sarmatt</option>
+            <option value="32" >SASO</option>
+            <option value="137" >SC&T</option>
+            <option value="41" >Scientech Electronics</option>
+            <option value="141" >SF&T</option>
+            <option value="136" >SI</option>
+            <option value="232" >SimpleIP</option>
+            <option value="259" >Slinex</option>
+            <option value="118" >Smartec</option>
+            <option value="341" >Soca</option>
+            <option value="282" >Sony</option>
+            <option value="170" >Spacecom</option>
+            <option value="312" >Spacetechnology</option>
+            <option value="198" >Spezvision</option>
+            <option value="270" >Sphinx</option>
+            <option value="119" >Spymax</option>
+            <option value="14" >STA</option>
+            <option value="301" >Stelberry</option>
+            <option value="157" >Sunkwang</option>
+            <option value="13" >Sunwave</option>
+            <option value="169" >Tamron</option>
+            <option value="308" >Tantos</option>
+            <option value="315" >TBT</option>
+            <option value="299" >TBTEC</option>
+            <option value="193" >Texecom</option>
+            <option value="286" >Tezter</option>
+            <option value="168" >Tokina</option>
+            <option value="217" >Tornet</option>
+            <option value="120" >TRUEN </option>
+            <option value="78" >TSS</option>
+            <option value="247" >Unicam</option>
+            <option value="209" >Unimo</option>
+            <option value="140" >V1net </option>
+            <option value="196" >V1net Advokat</option>
+            <option value="195" >V1net Deni</option>
+            <option value="205" >V1net Mone</option>
+            <option value="244" >V1netIP </option>
+            <option value="314" >Videopark</option>
+            <option value="101" >Videotec</option>
+            <option value="123" >ViDigi </option>
+            <option value="124" >Viewse </option>
+            <option value="321" >Viro</option>
+            <option value="161" >Vision HI-Tech</option>
+            <option value="25" >Visonic</option>
+            <option value="295" >Vivotek</option>
+            <option value="121" >VTV</option>
+            <option value="243" >WAPA</option>
+            <option value="187" >Watec</option>
+            <option value="220" >WebGate</option>
+            <option value="285" >Wivat</option>
+            <option value="122" >Wizebox</option>
+            <option value="79" >X-press</option>
+            <option value="298" >XVI</option>
+            <option value="318" >YLI</option>
+            <option value="94" >Zebra</option>
+            <option value="269" >ZKTeco</option>
+            <option value="47" >Альтоника</option>
+            <option value="2" >Аргус-Спектр</option>
+            <option value="60" >Арсенал Безопасности</option>
+            <option value="3" >Артон</option>
+            <option value="182" >БайтЭрг</option>
+            <option value="45" >Бастион</option>
+            <option value="306" >Блокпост</option>
+            <option value="38" >Болид</option>
+            <option value="73" >Витек</option>
+            <option value="36" >ВЭРС</option>
+            <option value="262" >Давикон</option>
+            <option value="250" >Иволга</option>
+            <option value="135" >Инфотех</option>
+            <option value="4" >ИРСЭТ</option>
+            <option value="9" >К-Инженеринг </option>
+            <option value="17" >КБ Прибор</option>
+            <option value="287" >Линия</option>
+            <option value="39" >Магистраль</option>
+            <option value="1" >Магнито-Контакт</option>
+            <option value="294" >МВК-Light-IP</option>
+            <option value="7" >МЗЭП</option>
+            <option value="264" >МикроКомСервис </option>
+            <option value="233" >Олевс</option>
+            <option value="275" >Оникс</option>
+            <option value="65" >Пентакон</option>
+            <option value="8" >Полисервис</option>
+            <option value="292" >Проксима</option>
+            <option value="293" >Радий</option>
+            <option value="29" >Риэлта</option>
+            <option value="89" >РостЕвроСтрой </option>
+            <option value="96" >Рубеж</option>
+            <option value="258" >Санком</option>
+            <option value="72" >Сеан</option>
+            <option value="283" >Себокс</option>
+            <option value="27" >Септима</option>
+            <option value="18" >Сибирский Арсенал</option>
+            <option value="37" >Сигма-ИС</option>
+            <option value="15" >Спектрон</option>
+            <option value="251" >Спэк</option>
+            <option value="43" >Теко</option>
+            <option value="98" >Телеинформсвязь</option>
+            <option value="234" >Тирэкс </option>
+            <option value="310" >Точка Зрения</option>
+            <option value="74" >Шэлни</option>
+            <option value="50" >Электротехника и Автоматика</option>
+            <option value="215" >Эликс</option>
+            <option value="97" >Элтех</option>
+            <option value="194" >Юнитест</option>       
+          </select>
+          <input type="text" name="marking" id="front_code" class="input" value="Код товара"/>
+          <input type="image" name="eaddress" id="eaddress" src="images/bgr/podrobnie.jpg" class="filter"/>
+          <script type='text/javascript'>
+              var objSearch1 = document.getElementById('front_code');
+              objSearch1.onfocus = function()   { if(objSearch1.value=='Код товара') objSearch1.value = '';}
+              objSearch1.onblur = function()  { if(objSearch1.value=='') objSearch1.value = 'Код товара';}
+          </script>
+        </fieldset>
+        </form>
+        <div class="filter-form-border"></div>
       </div>
     </noindex>
   </div>
+
+
+
   <div id="body">
     <div id="main_col">
       <div id="main_col_content">
@@ -668,6 +663,7 @@
                 <span class="country-count">69.5499</span>          
               </div>
             </div>
+            <div class="filter-form-border"></div>
           </div>
 
 
@@ -1219,19 +1215,19 @@
             </ul>
             </div>
           </div>
-          <div id="footer">
+                   <div id="footer">
            <div class="main_menu2">
             <table>
           <tr>
-    		    <td ><a href="">Главная</a></td>
-      	    <td ><a href="">О компании</a></td>
-      	    <td ><a href="">Прайс-листы</a></td>
-      	    <td ><a href="">Доставка и оплата</a></td>
-      	    <td ><a href="">Монтаж</a></td>
-      	    <td ><a href="">Ремонт</a></td>
-      	    <td ><a href="">Вакансии</a></td>
-      	    <td ><a href="">Контакты</a></td>
-      	    <td ><a href="">Полезная информация</a></td>            
+            <td ><a href="">Главная</a></td>
+            <td ><a href="">О компании</a></td>
+            <td ><a href="">Прайс-листы</a></td>
+            <td ><a href="">Доставка и оплата</a></td>
+            <td ><a href="">Монтаж</a></td>
+            <td ><a href="">Ремонт</a></td>
+            <td ><a href="">Вакансии</a></td>
+            <td ><a href="">Контакты</a></td>
+            <td ><a href="">Полезная информация</a></td>            
           </tr>
         </table>
         </div>
@@ -1243,7 +1239,7 @@
                 <a href="javascript:PopUpShow()" class='basic'><img width="166" height="54" src="images/zakaz_zv.png"></a>
               </div>
           </div>                 
-        	<div class="main_ph">
+          <div class="main_ph">
             <span class="f_cen"  id="tel_phon">
               <p class="main_phone">
                <span><img id = "click1"  src = "images/phone_ico.png" style = "margin-top: 8px; margin-left: -32px; padding-right: 10px;"/>/800 / </span>550-50-60
@@ -1263,13 +1259,13 @@
           </div> 
          <div class="korz_in">
             <span style = "margin-top: -18px;" class="f_cen">
-            	<span class="gi_sys">
-	            	<p class="kar_s"><a href="">Карта сайта</a></p>
-	            	<p>© 2015 GI Systems</p>
-            	</span>
-            	<p>
-							   <a href="" ><img style="margin-bottom:5px;" src="http://www.yandex.ru/cycounter?http://1.gisy.ru/" width="88" height="31" alt="Яндекс цитирования" border="0" /></a>
-							       <br>   
+              <span class="gi_sys">
+                <p class="kar_s"><a href="">Карта сайта</a></p>
+                <p>© 2015 GI Systems</p>
+              </span>
+              <p class="footer-block-p">
+                 <a href="" ><img style="margin-bottom:5px;" src="http://www.yandex.ru/cycounter?http://1.gisy.ru/" width="88" height="31" alt="Яндекс цитирования" border="0" /></a>
+                     <br>   
               </p>
             </span>
          </div>

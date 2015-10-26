@@ -65,6 +65,7 @@
       <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js" data-text="Ваш браузер застарел, обновите свой браузер"></script>
     <![endif]-->
     <div id="wrapper">
+
       <div id="header">
        <a href="/" class="logo" rel="nofollow"><img width="276" height="78" src="images/logo.png" /></a>
        <div class="contacts">
@@ -90,7 +91,7 @@
                 <img width="21" height="11" src = "images/email_ico.png" style = "margin-top: 4px; margin-left: -32px; padding-right: 10px;"/>E-mail: <a href="">gisy@gisy.ru</a>              </p>
             </span>  
           </div>
-          <div class="lich_kab">
+          <div class="lich_kab" style="width: 110px;">
               <span class="f_cen" id="ll_kab">
 
                   <p class="p_l_k">Личный кабинет</p>
@@ -111,19 +112,7 @@
             <a href="/curt"><p class="of_zak"></p></a>
           </span>
         </div>
-         <div class="korz_in"><!--
-            <span class="f_cen">
-                  <span class="v_kar">
-                    <span class="pod">В корзине</span> 
-                    <span class="pod2">
-                      0                    </span> 
-                      шт.  на сумму <span class="pod2">0                    </span> руб.
-                  </span>
-                 	
-                  <a href=""><p class="img_kar"></p></a>
-                  <p class="m_srav"><a href="">В сравнении</a></p>
-                  <a href=""><p class="of_zak"></p></a>
-            </span>-->
+         <div class="korz_in">
          </div>
          <div class="clearl"></div>
        </div>
@@ -149,14 +138,16 @@
        <form id="form1" action="/search" method="get" class="search_form">
         <fieldset>
           <input type="text" name="search" id="front_search_query" value="Поиск по товарам" class="input"/>
-          <input type="image" name="eaddress" id="eaddress" src="images/1x1.gif" class="go"/>
+          <input type="image" name="eaddress" id="eaddress" src="images/bgr/search2.png" class="go"/>
           <script type='text/javascript'>
               var objSearch = document.getElementById('front_search_query');
               objSearch.onfocus = function()  { if(objSearch.value=='Поиск по товарам') objSearch.value = '';}
               objSearch.onblur = function()   { if(objSearch.value=='') objSearch.value = 'Поиск по товарам';}
           </script>
         </fieldset>
+        <div style="margin: -5px 0 0 0;" class="filter-form-border"></div>
        </form>
+
        </noindex>
     	  
 
@@ -654,7 +645,7 @@
           	<option value="194" >Юнитест</option>				
           </select>
           <input type="text" name="marking" id="front_code" class="input" value="Код товара"/>
-          <input type="image" name="eaddress" id="eaddress" src="images/bgr/podtobnie.png" class="filter"/>
+          <input type="image" name="eaddress" id="eaddress" src="images/bgr/podrobnie.jpg" class="filter"/>
           <script type='text/javascript'>
               var objSearch1 = document.getElementById('front_code');
               objSearch1.onfocus = function() 	{ if(objSearch1.value=='Код товара') objSearch1.value = '';}
@@ -662,9 +653,13 @@
           </script>
         </fieldset>
         </form>
+        <div class="filter-form-border"></div>
       </div>
     </noindex>
   </div>
+
+
+
   <div id="body">
     <div id="main_col">
       <div id="main_col_content">
@@ -684,6 +679,7 @@
                 <span class="country-count">69.5499</span>          
               </div>
             </div>
+            <div class="filter-form-border"></div>
           </div>
 
 
@@ -785,12 +781,12 @@
               <meta itemprop="name" content="S-2">
               <div class="definition_good2">
                   <div class="img_good2" itemscope itemtype=""> 
-                  <table>
+                  <table style="width: 100%;">
                     <tr>
                       <td>
                         <p>
                           <a class="fancybox" href="images/100005.jpg" data-fancybox-group="gallery" title="">
-                            <img style="cursor:pointer;max-witdh:250px; max-height: 175px;" itemprop="contentUrl" src="images/100005.jpg" alt="" />
+                            <img style="cursor:pointer;max-witdh:250px; max-height: 155px;" itemprop="contentUrl" src="images/100005.jpg" alt="" />
                           </a>  
                           <!-- <img id="img787369" style="cursor:pointer;max-witdh:250px; max-height: 175px;" itemprop="contentUrl" src="images/100005.jpg" alt="" /> -->
                         </p>
@@ -814,7 +810,7 @@
                       <td><span class="bold">4485 pyб.</span></td>
                     </tr>
                     <tr style = 'background : #e3e3e3;' >
-                      <td>Крупный опт></td>
+                      <td>Крупный опт</td>
                       <td><span class="bold">4485 pyб.</span></td>
                     </tr>
                     <tr style = 'background : #F7F1F1;' >
@@ -830,9 +826,9 @@
                   <div class="wrap_button compare_button">
                     <a href="#" class="add_basket" onclick="ga('send', 'pageview', '/cart/'); yaCounter1953724.reachGoal('Dobavlenie_korzina'); add_to_curt ('catalog_items', 787369); return false;">В корзину</a>
                   </div>                 
-                  <div style="float: right;" class="wrap_button" id="lnc_bp">
+                  <!-- <div style="float: right;" class="wrap_button" id="lnc_bp">
                     <a href="#" onclick="add_diff (787369);return false;" class="compare">В сравнении</a>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="pods_but">
                   <a style = " " id ="tooltip1"   href="#">
@@ -1369,19 +1365,20 @@
             </ul>
             </div>
           </div>
-          <div id="footer">
+          
+                    <div id="footer">
            <div class="main_menu2">
             <table>
           <tr>
-    		    <td ><a href="">Главная</a></td>
-      	    <td ><a href="">О компании</a></td>
-      	    <td ><a href="">Прайс-листы</a></td>
-      	    <td ><a href="">Доставка и оплата</a></td>
-      	    <td ><a href="">Монтаж</a></td>
-      	    <td ><a href="">Ремонт</a></td>
-      	    <td ><a href="">Вакансии</a></td>
-      	    <td ><a href="">Контакты</a></td>
-      	    <td ><a href="">Полезная информация</a></td>            
+            <td ><a href="">Главная</a></td>
+            <td ><a href="">О компании</a></td>
+            <td ><a href="">Прайс-листы</a></td>
+            <td ><a href="">Доставка и оплата</a></td>
+            <td ><a href="">Монтаж</a></td>
+            <td ><a href="">Ремонт</a></td>
+            <td ><a href="">Вакансии</a></td>
+            <td ><a href="">Контакты</a></td>
+            <td ><a href="">Полезная информация</a></td>            
           </tr>
         </table>
         </div>
@@ -1393,7 +1390,7 @@
                 <a href="javascript:PopUpShow()" class='basic'><img width="166" height="54" src="images/zakaz_zv.png"></a>
               </div>
           </div>                 
-        	<div class="main_ph">
+          <div class="main_ph">
             <span class="f_cen"  id="tel_phon">
               <p class="main_phone">
                <span><img id = "click1"  src = "images/phone_ico.png" style = "margin-top: 8px; margin-left: -32px; padding-right: 10px;"/>/800 / </span>550-50-60
@@ -1413,13 +1410,13 @@
           </div> 
          <div class="korz_in">
             <span style = "margin-top: -18px;" class="f_cen">
-            	<span class="gi_sys">
-	            	<p class="kar_s"><a href="">Карта сайта</a></p>
-	            	<p>© 2015 GI Systems</p>
-            	</span>
-            	<p>
-							   <a href="" ><img style="margin-bottom:5px;" src="" width="88" height="31" alt="Яндекс цитирования" border="0" /></a>
-							       <br>   
+              <span class="gi_sys">
+                <p class="kar_s"><a href="">Карта сайта</a></p>
+                <p>© 2015 GI Systems</p>
+              </span>
+              <p class="footer-block-p">
+                 <a href="" ><img style="margin-bottom:5px;" src="http://www.yandex.ru/cycounter?http://1.gisy.ru/" width="88" height="31" alt="Яндекс цитирования" border="0" /></a>
+                     <br>   
               </p>
             </span>
          </div>
