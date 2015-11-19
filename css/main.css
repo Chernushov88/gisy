@@ -1,6 +1,6 @@
 /*page*/
   html, body {width:100%;height:100%; //min-width: 1300px;}
-  body {padding:0; margin:0;background:url(../imag}s/bgr/line.png) repeat-x left top;}
+  body {padding:0; margin:0;background:url(../images/bgr/line.png) repeat-x left top;}
 
 /*
   #SomeBox
@@ -34,7 +34,7 @@
   select {vertical-align:middle;}
   table {border-spacing: 0;border-collapse: collapse;}
   table td {padding:0;text-align:left;vertical-align:top;}
-  ul {margin: 0;padding: 0px 20px 10px 20px;}
+  ul {margin: 0;padding: 0px 20px 10px 20px;list-style: none;}
 
 .seotext h2 {    
   color: #FF6600;
@@ -1765,7 +1765,88 @@ background: url('../images/new/4.png') no-repeat;
       cursor: pointer;
       display:none;
     }
-
+/*-----------------------------------------------------------------------------------*/
+/*  PRICE-LIST
+/*-----------------------------------------------------------------------------------*/
+.price-list{
+  overflow: hidden;
+}
+.price-list li{
+  width: 76px;
+  padding: 0 50px 20px 0;
+  float: left;
+}
+.price-list li a{
+  display: block;
+}
+.price-list li img{
+    display: table;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  FAVORITE-PRODUCTS
+/*-----------------------------------------------------------------------------------*/
+.favorite-products{
+  overflow: hidden;
+  padding: 0;
+}
+.favorite-products li{
+  width: 180px;
+  padding: 0 55px 50px 0;
+  float: left;
+}
+img.brends-img{
+    display: table;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.product-title{
+    display: inline-block;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #e16d19;
+}
+.favorite-products li a{
+  display: block;
+  padding: 10px 0 0 0;
+}
+.ptr-raiting{
+  margin-top: 15px;
+  background: #fff;
+}
+.ptr-raiting img{
+  display: inline-block;
+    padding: 2px 8px 0 6px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  BRENDS
+/*-----------------------------------------------------------------------------------*/
+.brends-line{
+  height: 1px;
+  margin-bottom: 20px;
+  background: #b0b0b0;
+}
+.producers-block{
+  overflow: hidden;
+}
+.producers-block > li{
+  width: 20%;
+  margin: 0 6%;
+  float: left;
+}
+.producers-block > li h2{
+  margin-bottom: 10px;
+  padding: 10px 0;
+  color: #000;
+  font-weight: 600;
+  font-size: 26px;
+  border-bottom: 1px solid #ccc;
+}
 @media (min-width:1800px) and (max-width:1815px){
   .block-filter-form {width: 68%;}
  }
