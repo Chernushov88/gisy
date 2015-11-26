@@ -27,7 +27,7 @@ line-height:26px;
 text-decoration:none;
 }
 
-.b-popup{
+.b-popup{ 
 display:none;
 position:fixed;
 top:35%;
@@ -36,11 +36,22 @@ transform:translate(-50%, 0);
 z-index:100;
 }
 
-.b-popup2{
+.b-popup3{
 display:none;
-position:absolute;
-bottom:20%;
+position: fixed;
+top: 10%;
 left:50%;
 transform:translate(-50%, 0);
 z-index:100;
+}
+#popup3 a.modalCloseImg {
+    background: url(../images/krest_form.png) no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline;
+    z-index: 3200;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
 }

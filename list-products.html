@@ -43,16 +43,11 @@
       });
     </script>
     <script>
-     function PopUpShow(){
-          $(".darken").fadeIn();
-          $("#popup").fadeIn();
-          }
+     function PopUpShow(){$(".darken").fadeIn();$("#popup").fadeIn();}
+     function PopUpShow3(){$(".darken").fadeIn();$("#popup3").fadeIn();}
           
-          //Функция скрытия PopUp
-          function PopUpHide(){
-          $(".darken").fadeOut(300);
-          $("#popup").fadeOut(300); 
-          }
+      //Функция скрытия PopUp
+      function PopUpHide(){$(".darken").fadeOut(300); $("#popup, #popup3").fadeOut(300);}
     </script>
     <script type="text/javascript">
       $(document).ready(function() {
@@ -838,7 +833,7 @@
                 <a href="#" class="one_click" >Купить в один клик</a>
                 </div>
                 <div class="wrap_button compare_button">
-                <a href="#" class="add_basket" >В корзину</a>
+                <a href="javascript:PopUpShow3()" class="add_basket" >В корзину</a>
                 </div>
 
                 
@@ -1903,6 +1898,14 @@
         <p><input type="submit" value="Жду звонка!" class="butt" id="btn1"></p>                 
       </span>
       <span id="zg"></span>            
+  </div>
+  <div class="b-popup3" id="popup3">              
+    <div class="popup">  
+      <a class="modalCloseImg simplemodal-close" href="javascript:PopUpHide()"></a>      
+      <p class="header3">Спасибо, ваш товар добавлен в корзину</p>
+      <p class="continue" onclick="$('#curt_add_tooltip').hide ();">Продолжить покупки</p>
+      <a href="/curt" class="do_order">Перейти в корзину и<br>оформить заказ</a>
+    </div>          
   </div>
 
   <div class="darken"></div>
